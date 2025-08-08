@@ -1,0 +1,26 @@
+<h1>A New World To Say Hello</h1>
+
+<p>Our first webpage!!!</p>
+
+<p>This is cool<p>
+	<p>My name is {{ first_name }}
+
+		<p>{{ stuff|title }}</p>
+
+<h3>Favourite Pizza:</h3>
+
+{% for topping in favourite_pizza %}
+
+	{% if topping == 41 %}
+	{{ topping + 103 }}
+	{% else %}
+	{{ topping }}<br/>
+	{% endif %}
+	
+{% endfor %}
+
+<h3>Best Topping</h3>
+<br/>
+{{ favourite_pizza.0 }}<br/>
+{{ favourite_pizza.3 + 11 }}
+

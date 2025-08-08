@@ -1,0 +1,10 @@
+/// commands for initializing GitHub from python project folder.
+/// commands issued from python virual server i.e. /c/flasker
+
+
+git config --global user.name "Bob Wilson"
+git config --global user.email "rwhibby22@gmail.com"
+git config --global push.default matching
+git config --global alias.co checkout
+git init
+
