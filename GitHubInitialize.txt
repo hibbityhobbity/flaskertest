@@ -8,3 +8,30 @@ git config --global push.default matching
 git config --global alias.co checkout
 git init
 
+
+///turn git on after initialization
+
+ git add .
+git commit -am 'initial commit'
+
+///output e.g.
+$ git commit -am 'initial commit'
+[master (root-commit) ba7cb00] initial commit
+ 11 files changed, 100 insertions(+)
+ create mode 100644 GitHubInitialize.txt
+ create mode 100644 GitInitializeMaster.jpg
+ create mode 100644 __pycache__/hello.cpython-311.pyc
+ create mode 100644 hello.py
+ create mode 100644 sshKey_generate.jpg
+ create mode 100644 startPY_Server.jpg
+ create mode 100644 templates/404.html
+ create mode 100644 templates/500.html
+ create mode 100644 templates/bob.html
+ create mode 100644 templates/index.html
+ create mode 100644 templates/user.html
+(virt)
+RMWDell@RobDell MINGW64 /c/flasker (master)
+$
+
+////now setup on GitHub account
+
